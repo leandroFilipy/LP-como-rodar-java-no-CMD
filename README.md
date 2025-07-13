@@ -1,13 +1,12 @@
-☕ Criando e Executando um Código Java no Bloco de Notas via CMD
-Este projeto/documentação tem como objetivo ensinar de forma simples, prática e direta como criar um programa em Java utilizando o Bloco de Notas (Notepad) e executá-lo pelo Prompt de Comando (CMD) do Windows.
+☕ Como Criar e Executar um Código Java no Bloco de Notas usando o CMD
+Este projeto tem como objetivo demonstrar de forma prática e clara como criar um código Java no Bloco de Notas e executá-lo utilizando o Prompt de Comando (CMD).
+Uma excelente introdução para quem está iniciando no mundo da programação com Java! 🚀
 
-É uma introdução perfeita para quem está começando na linguagem Java e deseja aprender a executar seus primeiros códigos sem IDEs como Eclipse ou IntelliJ.
+📄 Etapas do Processo
+🧱 1. Criando o Arquivo .java
+Abra o Bloco de Notas no Windows 📝
 
-🧾 Passo a Passo Resumido
-1️⃣ Escrevendo o Código Java
-Abra o Bloco de Notas (ou qualquer editor de texto simples).
-
-Escreva seu código Java básico, por exemplo:
+Escreva o seguinte código Java:
 
 java
 Copiar
@@ -17,59 +16,62 @@ public class HelloWorld {
         System.out.println("Olá, mundo!");
     }
 }
-Salve o arquivo com o nome da classe e extensão .java
-➤ Exemplo: HelloWorld.java
-⚠️ Atenção: salve como "Todos os Arquivos", não como .txt.
+Salve o arquivo com o nome da classe e a extensão .java
+👉 Exemplo: HelloWorld.java
+❗ Importante: selecione "Todos os arquivos" no tipo de salvamento e não como .txt.
 
-2️⃣ Compilando e Executando no CMD
-Abra o CMD (Prompt de Comando).
+💻 2. Compilando e Executando no CMD
+Abra o Prompt de Comando (CMD) 🖥️
 
-Navegue até a pasta onde salvou o arquivo:
+Acesse o diretório onde você salvou o arquivo:
 
 bash
 Copiar
 Editar
-cd C:\Users\SeuUsuario\Desktop\ProjetosJava
-Compile o código com o javac:
+cd C:\Users\SeuUsuario\Desktop\ProjetoJava
+Compile o código com o comando javac:
 
 bash
 Copiar
 Editar
 javac HelloWorld.java
-Execute o programa compilado:
+Execute o programa compilado com:
 
 bash
 Copiar
 Editar
 java HelloWorld
-💡 O terminal irá exibir: Olá, mundo!
+🔎 Se tudo estiver certo, aparecerá no console:
 
-🔧 Pré-requisitos
-Ter o Java JDK instalado
+css
+Copiar
+Editar
+Olá, mundo!
+✅ Pré-Requisitos
+Antes de seguir os passos, verifique se você possui:
 
-Variável de ambiente JAVA_HOME configurada
+☕ Java JDK instalado em sua máquina
 
-Comandos javac e java funcionando no terminal
+🛠️ Variável de ambiente JAVA_HOME configurada
 
-📚 O que foi abordado nos slides
-✅ O que é o Bloco de Notas e para que serve no desenvolvimento
+📂 Comandos javac e java funcionando no terminal
 
-✅ Como estruturar a classe Java corretamente
+📚 Conteúdos Apresentados no Slide
+O que é o Bloco de Notas como editor de código
 
-✅ Como salvar e nomear um arquivo .java
+Estrutura básica de uma classe Java
 
-✅ Como abrir e usar o terminal (cmd)
+Como salvar e nomear arquivos .java
 
-✅ Comandos básicos javac e java
+Como usar o CMD para compilar e executar
 
-✅ Possíveis erros e como evitá-los
+Comandos essenciais: javac e java
 
-👨‍🏫 Autor
-Leandro Filipy de Lima (Sigma Boy)
-📘 Estudante de Desenvolvimento de Sistemas
-💻 Apaixonado por Java e lógica de programação
-🎯 Foco em práticas simples e eficientes
+Principais erros de iniciantes e como evitá-los
 
-📋 Licença
-Este conteúdo é de uso educacional e pode ser compartilhado, adaptado e reutilizado para fins de ensino, revisão e orientação de iniciantes.
+👨‍🎓 Autor
+Nome	Curso	Foco
+Leandro Filipy de Lima (Sigma Boy)	Desenvolvimento de Sistemas 💻	Programação com Java ☕
 
+📄 Licença
+Este projeto foi desenvolvido com fins educacionais, sendo livre para uso, estudo e adaptação em outros projetos didáticos ou apresentações.
